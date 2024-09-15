@@ -1,11 +1,11 @@
 ---
 title: "Assessing Consensus of Developers' Views on Code Readability"
 authors: '<i>Agnia Sergeyuk, Olga Lvova, Sergey Titov, Anastasiia Serova, Farid Bagirov, and Timofey Bryksin</i>'
-status: "accepted"
+status: "published"
 collection: publications
 permalink: /publications/2024-09-05-readability-consensus
 date: 2024-09-05
-venue: "<b>PPIG'24</b>"
+venue: "the proceedings of <b>PPIG'24</b>"
 level: 'Workshop'
 pdf: 'https://arxiv.org/abs/2407.03790'
 counter_id: 'C56'
