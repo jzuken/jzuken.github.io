@@ -3,7 +3,7 @@ title: "Untangling Knots: Leveraging LLM for Error Resolution in Computational N
 authors: '<i>Konstantin Grotov, Sergey Titov, Yaroslav Zharov, and Timofey Bryksin</i>'
 status: "published"
 collection: publications
-permalink: /publications/2024-05-11
+permalink: /publications/2024-05-11-llms-for-errors-in-notebooks
 date: 2024-05-11
 venue: "the proceedings of <b>HNI'24</b>"
 level: 'Workshop'
