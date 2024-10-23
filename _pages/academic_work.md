@@ -52,6 +52,7 @@ author_profile: true
 
 <h3>Author</h3>
 
+<b>2024</b>: <a href="https://www.sciencedirect.com/journal/information-and-software-technology">Information and Software Technology</a><br>
 <b>2023</b>: <a href="https://www.sciencedirect.com/journal/information-and-software-technology">Information and Software Technology</a>, <a href="https://www.sciencedirect.com/journal/journal-of-systems-and-software">Journal of Systems and Software</a>
 
 <h3>Reviewer</h3>
