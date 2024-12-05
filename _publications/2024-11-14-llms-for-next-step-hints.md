@@ -7,7 +7,6 @@ permalink: /publications/2024-11-14-llms-for-next-step-hints
 date: 2024-11-14
 venue: "the proceedings of <b>Koli Calling</b>"
 paperurl: 'https://doi.org/10.1145/3699538.3699556'
-level: '—'
 pdf: 'https://arxiv.org/abs/2410.09268'
 data: 'https://zenodo.org/records/12584502'
 counter_id: 'C60'
