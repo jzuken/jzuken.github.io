@@ -28,24 +28,26 @@
 
   {% if post.collection == 'publications' or post.collection == 'publicationsphysics' %}
   {% if post.status == "preprint" %}
-  <h3 class="archive__item-title" itemprop="headline" style="margin-bottom:-15px">
+  <h3 class="archive__item-title" itemprop="headline" style="line-height: 150%; margin-bottom:-18px">
     {% if post.link %}
-    [{{ post.counter_id }}] <a href="{{ post.link }}" style="color:#888888;">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" style="color:#888888;" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+    [{{ post.counter_id }}] <a href="{{ post.link }}" style="color:#992017;">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" style="color:#992017;" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
     {% else %}
-    [{{ post.counter_id }}] <a href="{{ base_path }}{{ post.url }}" style="color:#888888;" rel="permalink">{{ title }}</a>
+    [{{ post.counter_id }}] <a href="{{ base_path }}{{ post.url }}" style="color:#992017;" rel="permalink">{{ title }}</a> {% if post.language %}<span style="color:#888888;"> (in {{ post.language }})</span>{% endif %}
     {% endif %}
+
   </h3>
   {% else %}
-  <h3 class="archive__item-title" itemprop="headline" style="margin-bottom:-15px;">
+  <h3 class="archive__item-title" itemprop="headline" style="line-height: 150%; margin-bottom:-18px;">
     {% if post.link %}
     [{{ post.counter_id }}] <a href="{{ post.link }}" style="color:#992017;">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
     {% else %}
-    [{{ post.counter_id }}] <a href="{{ base_path }}{{ post.url }}" style="color:#992017;" rel="permalink">{{ title }}</a>
+    [{{ post.counter_id }}] <a href="{{ base_path }}{{ post.url }}" style="color:#992017;" rel="permalink">{{ title }}</a> {% if post.language %}<span style="color:#888888;"> (in {{ post.language }})</span>{% endif %}
     {% endif %}
+
   </h3>
   {% endif %}
   {% else %}
-  <h3 class="archive__item-title" itemprop="headline" style="margin-bottom:-15px;">
+  <h3 class="archive__item-title" itemprop="headline" style="line-height: 150%; margin-bottom:-18px;">
     {% if post.link %}
     <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
     {% else %}
@@ -63,23 +65,30 @@
   {% elsif post.collection == 'publications' or post.collection == 'publicationsphysics' %}
   {% if post.status == "accepted" %}
   <p style="padding-top:0; margin-bottom:9px;"> {{ post.authors }} <br>
-    <b>{{ post.date | default: "1900-01-01" | date: "%B, %Y" }}</b>. Accepted to {{ post.venue }} <span style="color:#888888;">({{ post.level }})</span>. <span style="color:#ad7f00;"><b>{{ post.award }}</b></span></p>
+    <b>{{ post.date | default: "1900-01-01" | date: "%B, %Y" }}</b>. Accepted to {{ post.venue }}{% if post.level %} <span style="color:#888888;">({{ post.level }})</span>{% else %}{% endif %}. <span style="color:#ad7f00;"><b>{{ post.award }}</b></span></p>
   {% elsif post.status == "preprint" %}
   <p style="padding-top:0; margin-bottom:9px;"> {{ post.authors }} <br>
-    <span style="color:#888888;"><b>{{ post.date | default: "1900-01-01" | date: "%B, %Y" }}</b></span>. Published on <span style="color:#888888;">{{ post.venue }}</span>.</p>
+    <b>{{ post.date | default: "1900-01-01" | date: "%B, %Y" }}</b>. Published on {{ post.venue }}.</p>
+  {% elsif post.status == "thesis" %}
+  <p style="padding-top:0; margin-bottom:9px;"> {{ post.authors }} <br>
+    <b>{{ post.date | default: "1900-01-01" | date: "%B, %Y" }}</b>. {{ post.degree }}, defended at {{ post.venue }} under {{ post.advisor }}.</p>
   {% else %}
   <p style="padding-top:0; margin-bottom:9px;"> {{ post.authors }} <br>
-    <b>{{ post.date | default: "1900-01-01" | date: "%B, %Y" }}</b>. Published in {{ post.venue }} <span style="color:#888888;">({{ post.level }})</span>{% if post.j1 == 'true' %}, presented at {{ post.j1venue }} <span style="color:#888888;">({{ post.j1level }}).</span>{% else %}.{% endif %} <span style="color:#ad7f00;"><b>{{ post.award }}</b></span></p>
+    <b>{{ post.date | default: "1900-01-01" | date: "%B, %Y" }}</b>. Published in {{ post.venue }}{% if post.level %} <span style="color:#888888;">({{ post.level }})</span>{% else %}{% endif %}{% if post.j1 == 'true' %}, presented at {{ post.j1venue }} <span style="color:#888888;">({{ post.j1level }}).</span>{% else %}.{% endif %} <span style="color:#ad7f00;"><b>{{ post.award }}</b></span></p>
   {% endif %}
 
   {% if post.status == "preprint" %}
-  {% assign color = "btn--researchpreprint" %}
+  {% assign color = "btn--research" %}
   {% else %}
   {% assign color = "btn--research" %}
   {% endif %}
 
   {% if post.paperurl %}
-  <a class="{{ color }}" href="{{ post.paperurl }}">DOI</a>
+  {% if post.status == "thesis" %}
+  <a class="{{ color }}" href="{{ post.paperurl }}">Text</a>
+  {% else %}
+  <a class="{{ color }}" href="{{ post.paperurl }}">Paper</a>
+  {% endif %}
   {% endif %}
   {% if post.pdf %}
   <a class="{{ color }}" href="{{ post.pdf }}">Pre-print</a>
@@ -108,7 +117,7 @@
   <a class="btn--research" href="{{ post.video }}">Video</a>
   {% endif %}
   {% if post.paperurl %}
-  <a class="btn--research" href="{{ post.paperurl }}">Paper DOI</a>
+  <a class="btn--research" href="{{ post.paperurl }}">Paper</a>
   {% endif %}
   {% if post.pdf %}
   <a class="btn--research" href="{{ post.pdf }}">Paper pre-print</a>
