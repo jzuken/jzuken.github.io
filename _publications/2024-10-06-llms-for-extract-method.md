@@ -1,12 +1,13 @@
 ---
 title: "Next-Generation Refactoring: Combining LLM Insights and IDE Capabilities for Extract Method"
 authors: '<i>Dorin Pomian, Abhiram Bellur, Malinda Dilhara, Zarina Kurbatova, Egor Bogomolov, Timofey Bryksin, and Danny Dig</i>'
-status: "accepted"
+status: "published"
 collection: publications
 permalink: /publications/2024-10-06-llms-for-extract-method
 date: 2024-10-06
-venue: "<b>ICSME'24</b>"
+venue: "proceedings of <b>ICSME'24</b>"
 pdf: 'https://danny.cs.colorado.edu/papers/EM-Assist.pdf'
+paperurl: 'https://doi.org/10.1109/ICSME58944.2024.00034'
 data: 'https://llm-refactoring.github.io/'
 tool: 'https://llm-refactoring.github.io/'
 counter_id: 'C57'
