@@ -27,6 +27,7 @@ author_profile: true
 
 <h3>Reviewer</h3>
 
+<b>2026</b>: <a href="https://conf.researchr.org/home/msr-2026">MSR</a> (Technical Track PC)<br>
 <b>2025</b>: <a href="https://conf.researchr.org/track/icse-2025/icse-2025-research-track">ICSE</a> (Research Track PC), <a href="https://ide-workshop.github.io/">IDE</a> (PC), <a href="https://2025.msrconf.org/track/msr-2025-technical-papers">MSR</a> (Technical Track PC) <br>
 <b>2024</b>: <a href="https://conf.researchr.org/track/ase-2024/ase-2024-industry-showcase">ASE</a> (Industry Track PC), <a href="https://2024.esec-fse.org/track/fse-2024-industry">FSE</a> (Industry Track PC), <a href="https://2024.msrconf.org/track/msr-2024-technical-papers">MSR</a> (Technical Track PC), <a href="https://conf.researchr.org/track/saner-2024/saner-2024-papers">SANER</a> (Research Track PC)<br>
 <b>2023</b>: <a href="https://conf.researchr.org/track/ase-2023/ase-2023-papers">ASE</a>  (Research Track PC), <a href="https://conf.researchr.org/track/ease-2023/ease-2023-industry">EASE</a> (Industry Track PC), <a href="https://2023.esec-fse.org/track/fse-2023-industry">ESEC/FSE</a> (Industry Track PC, Student Research Competition PC), <a href="https://conf.researchr.org/track/icse-2023/icse-2023-posters">ICSE</a> (Poster Track PC), <a href="https://conf.researchr.org/track/mobilesoft-2023/mobilesoft-2023-tools-and-datasets">MOBILESoft</a> (Tools and Datasets Track PC), <a href="https://saner2023.must.edu.mo/">SANER</a> (Research Track PC, Tool Track PC)<br>
