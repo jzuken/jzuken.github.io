@@ -15,7 +15,7 @@ author_profile: true
 
 <h3>Author</h3>
 
-<b>2025</b>: <a href="https://conf.researchr.org/home/icse-2025">ICSE</a>, <a href="https://ide-workshop.github.io/">IDE</a><br>
+<b>2025</b>: <a href="https://conf.researchr.org/home/icse-2025">ICSE</a>, <a href="https://conf.researchr.org/home/icsme-2025">ICSME</a>, <a href="https://ide-workshop.github.io/">IDE</a><br>
 <b>2024</b>: <a href="https://2024.esec-fse.org/track/fse-2024-research-papers">FSE</a>, <a href="https://humannotebookinteractions.github.io/">HNI</a>, <a href="https://conf.researchr.org/track/icpc-2024/icpc-2024-replications-and-negative-results--rene-">ICPC</a>, <a href="https://conf.researchr.org/track/icsme-2024/icsme-2024-papers">ICSME</a>, <a href="https://www.kolicalling.fi/">Koli Calling</a><br>
 <b>2023</b>: <a href="https://2023.hci.international/ac">AC</a>, <a href="https://conf.researchr.org/home/ase-2023">ASE</a>, <a href="https://conf.researchr.org/home/esem-2023">ESEM</a>, <a href="https://conf.researchr.org/home/icse-2023">ICSE</a>, <a href="http://in2writing.glitch.me/">In2Writing</a>, <a href="https://iticse.acm.org/2023/">ITiCSE</a>, <a href="https://conf.researchr.org/home/msr-2023">MSR</a>, <a href="https://www.ppig.org/workshops/2023-annual-workshop/call-for-papers/">PPIG</a><br>
 <b>2022</b>: <a href="https://conf.researchr.org/home/ase-2022">ASE</a>, <a href="https://2022.esec-fse.org/">ESEC/FSE</a>, <a href="https://conf.researchr.org/home/icpc-2022">ICPC</a>, <a href="https://conf.researchr.org/home/icse-2022">ICSE</a>, <a href="https://conf.researchr.org/home/msr-2022">MSR</a>, <a href="https://saner2022.uom.gr/">SANER</a>, <a href="https://sigcse2022.sigcse.org/">SIGCSE</a><br>

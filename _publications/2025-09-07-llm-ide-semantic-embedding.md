@@ -1,12 +1,13 @@
 ---
 title: "Together We Are Better: LLM, IDE and Semantic Embedding to Assist Move Method Refactoring"
 authors: '<i>Fraol Batole, Abhiram Bellur, Malinda Dilhara, Yaroslav Zharov, Timofey Bryksin, Kai Ishikawa, Haifeng Chen, Masaharu Morimoto, Motoura Shota, Takeo Hosomi, Tien N. Nguyen, Hridesh Rajan, Nikolaos Tsantalis, and Danny Dig</i>'
-status: "preprint"
+status: "accepted"
 collection: publications
-permalink: /publications/2025-01-31-llm-ide-semantic-embedding
-date: 2025-01-31
-venue: "a <b>personal webiste</b>"
+permalink: /publications/2025-09-07-llm-ide-semantic-embedding
+date: 2025-09-07
+venue: "<b>ICSME'25</b>"
+level: "A"
 pdf: 'https://fraolbatole.github.io/assets/pdf/MMAssist.pdf'
-counter_id: 'P13'
+counter_id: 'C64'
 abstract: "<p><b>Abstract</b>. MoveMethod is a hallmark refactoring to remedy the lack of code modularity and remove several code smells that contribute to technical debt. Despite a plethora of research tools that recommend which methods to move and where by optimizing software quality metrics, these recommendations do not align with how expert developers perform MoveMethod. We hypothesize that given the huge training of Large Language Models and their reliance upon the naturalness of code, they should be better at recommending which methods are misplaced in a given class and which classes are better hosts for such misplaced methods. Moreover, their recommendations should better align with experts. Our formative study of 2016 LLM recommendations revealed that LLMs give expert suggestions, yet they are unreliable: up to 80% of the suggestions are hallucinations.</p><p>We introduce the first LLM-powered assistant for MoveMethod refactoring that automates its whole endto-end lifecycle, from recommendation to execution. We designed novel solutions to overcome the limitations of LLM-based MoveMethod refactoring. We automatically filter LLM hallucinations using static analysis from IDEs and a novel workflow that requires LLMs to be self-consistent, critique, and rank refactoring suggestions. Moreover, MoveMethod refactoring requires global, project-level reasoning to determine the best target classes where to relocate a misplaced method. We solved the limited context size of LLMs by employing refactoring-aware retrieval augment generation (RAG). We implemented our approach as an IntelliJ IDEA plugin, MM-Assist, that works for Java code. It synergistically combines the strengths of the LLM, IDE, static analysis, and semantic relevance. MM-Assist generates candidates, filters LLM hallucinations, validates and ranks recommendations, and then finally executes the correct refactoring based on user approval. In our thorough, multi-methodology empirical evaluation, we compare MM-Assist with the previous state-of-the-art approaches. MM-Assist significantly outperforms them: on a benchmark widely used by other researchers, our Recall@1 and Recall@3 are 73% and 80%, respectively, which is a 2x improvement over previous state-of-the-art approaches (33% and 37%). Moreover, we extend the corpus used by previous researchers with 210actual refactorings performed by Open-source software developers in 2024; MM-Assist achieves even more significant improvements over previous tools, our Recall@1 is 71%, and Recall@3 is 82%, compared to 20% for feTruth– this is an almost 4x improvement. Lastly, we conducted a user case study with 30 experienced participants who used MM-Assist to refactor their own code for one week. They rated 82.8% of MM-Assist recommendations positively. This shows that MM-Assist is both effective and useful.</p>"
 ---
