@@ -15,7 +15,7 @@ author_profile: true
 
 <h3>Author</h3>
 
-<b>2026</b>: <a href="https://conf.researchr.org/home/icse-2026">ICSE</a><br>
+<b>2026</b>: <a href="https://conf.researchr.org/track/fse-2026/fse-2026-demonstrations?">FSE</a>, <a href="https://conf.researchr.org/home/icse-2026">ICSE</a><br>
 <b>2025</b>: <a href="https://conf.researchr.org/home/icse-2025">ICSE</a>, <a href="https://conf.researchr.org/home/icsme-2025">ICSME</a>, <a href="https://ide-workshop.github.io/">IDE</a><br>
 <b>2024</b>: <a href="https://2024.esec-fse.org/track/fse-2024-research-papers">FSE</a>, <a href="https://humannotebookinteractions.github.io/">HNI</a>, <a href="https://conf.researchr.org/track/icpc-2024/icpc-2024-replications-and-negative-results--rene-">ICPC</a>, <a href="https://conf.researchr.org/track/icsme-2024/icsme-2024-papers">ICSME</a>, <a href="https://www.kolicalling.fi/">Koli Calling</a><br>
 <b>2023</b>: <a href="https://2023.hci.international/ac">AC</a>, <a href="https://conf.researchr.org/home/ase-2023">ASE</a>, <a href="https://conf.researchr.org/home/esem-2023">ESEM</a>, <a href="https://conf.researchr.org/home/icse-2023">ICSE</a>, <a href="http://in2writing.glitch.me/">In2Writing</a>, <a href="https://iticse.acm.org/2023/">ITiCSE</a>, <a href="https://conf.researchr.org/home/msr-2023">MSR</a>, <a href="https://www.ppig.org/workshops/2023-annual-workshop/call-for-papers/">PPIG</a><br>
@@ -28,7 +28,7 @@ author_profile: true
 
 <h3>Reviewer</h3>
 
-<b>2027</b>: FSE (Research Track PC)<br>
+<b>2027</b>: <a href="https://conf.researchr.org/track/fse-2027/fse-2027-papers">FSE</a> (Research Track PC)<br>
 <b>2026</b>: <a href="https://conf.researchr.org/home/msr-2026">MSR</a> (Technical Track PC)<br>
 <b>2025</b>: <a href="https://agenticse.github.io/">AgenticSE</a> (PC), <a href="https://2025.aiwareconf.org/track/aiware-2025-papers">AIware</a> (PC), <a href="https://conf.researchr.org/track/icse-2025/icse-2025-research-track">ICSE</a> (Research Track PC), <a href="https://ide-workshop.github.io/">IDE</a> (PC), <a href="https://2025.msrconf.org/track/msr-2025-technical-papers">MSR</a> (Technical Track PC) <br>
 <b>2024</b>: <a href="https://conf.researchr.org/track/ase-2024/ase-2024-industry-showcase">ASE</a> (Industry Track PC), <a href="https://2024.esec-fse.org/track/fse-2024-industry">FSE</a> (Industry Track PC), <a href="https://2024.msrconf.org/track/msr-2024-technical-papers">MSR</a> (Technical Track PC), <a href="https://conf.researchr.org/track/saner-2024/saner-2024-papers">SANER</a> (Research Track PC)<br>
@@ -58,6 +58,7 @@ author_profile: true
 
 <h3>Author</h3>
 
+<b>2026</b>: <a href="https://www.sciencedirect.com/journal/journal-of-systems-and-software">Journal of Systems and Software</a><br>
 <b>2025</b>: <a href="https://www.sciencedirect.com/journal/information-and-software-technology">Information and Software Technology</a><br>
 <b>2023</b>: <a href="https://www.sciencedirect.com/journal/information-and-software-technology">Information and Software Technology</a>, <a href="https://www.sciencedirect.com/journal/journal-of-systems-and-software">Journal of Systems and Software</a>
 
